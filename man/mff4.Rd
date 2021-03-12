@@ -4,8 +4,8 @@
 \name{mff4}
 \alias{mff4}
 \title{Monthly Fama French 4 Factor Returns}
-\format{An \code{xts} object with 1,104 observations and 5 columns. 
-The data run from January, 1927 through December, 2018.
+\format{An \code{xts} object with 1,128 observations and 5 columns. 
+The data run from January, 1927 through December, 2020.
 As in the upstream source, the data are given in \emph{percents}, meaning a
 value of 1.00 corresponds to a 1\% movement.
 Note also that returns presumably are \sQuote{simple} returns, not log

@@ -17,8 +17,8 @@
 #' @title Daily Fama French 4 Factor Returns
 #' @description The daily returns of the 4 Fama French Factors: Market, the cap factor SMB, 
 #' the growth factor HML, and the momentum factor UMD.
-#' @format An \code{xts} object with 24,290 observations and 5 columns. 
-#' The data run from January, 1927 through December, 2018.
+#' @format An \code{xts} object with 24,795 observations and 5 columns. 
+#' The data run from January, 1927 through December, 2020.
 #' As in the upstream source, the data are given in \emph{percents}, meaning a
 #' value of 1.00 corresponds to a 1\% movement.
 #' Note also that returns presumably are \sQuote{simple} returns, not log
@@ -48,8 +48,8 @@
 #' @title Monthly Fama French 4 Factor Returns
 #' @description The monthly returns of the 4 Fama French Factors: Market, the cap factor SMB, 
 #' the growth factor HML, and the momentum factor UMD.
-#' @format An \code{xts} object with 1,104 observations and 5 columns. 
-#' The data run from January, 1927 through December, 2018.
+#' @format An \code{xts} object with 1,128 observations and 5 columns. 
+#' The data run from January, 1927 through December, 2020.
 #' As in the upstream source, the data are given in \emph{percents}, meaning a
 #' value of 1.00 corresponds to a 1\% movement.
 #' Note also that returns presumably are \sQuote{simple} returns, not log
@@ -82,8 +82,8 @@
 #' the profitability factor RMW,
 #' and the invesment factor CMA.
 #'
-#' @format An \code{xts} object with 666 observations and 7 columns. 
-#' The data run from July, 1963 through December, 2018.
+#' @format An \code{xts} object with 690 observations and 7 columns. 
+#' The data run from July, 1963 through December, 2020.
 #' As in the upstream source, the data are given in \emph{percents}, meaning a
 #' value of 1.00 corresponds to a 1\% movement.
 #' Note also that returns presumably are \sQuote{simple} returns, not log
@@ -111,8 +111,8 @@
 
 #' @title Daily VIX Close
 #' @description The daily closing value of the CBOE VIX index.
-#' @format An \code{xts} object with 7,304 observations and 1 columns. 
-#' The data run from January, 1990 through December, 2018.
+#' @format An \code{xts} object with 7,809 observations and 1 columns. 
+#' The data run from January, 1990 through December, 2020.
 #' The columns are defined as follows:
 #' \describe{
 #'  \item{\code{VIX}}{The closing value of the VIX index. 
@@ -130,8 +130,8 @@
 
 #' @title Monthly Fama French 5 Industry Returns
 #' @description The monthly returns of 5 industries: Consumer, Manufacturing, High Technology, Healthcare and Other.
-#' @format An \code{xts} object with 1,104 observations and 5 columns. 
-#' The data run from January, 1927 through December, 2018.
+#' @format An \code{xts} object with 1,128 observations and 5 columns. 
+#' The data run from January, 1927 through December, 2020.
 #' As in the upstream source, the data are given in \emph{percents}, meaning a
 #' value of 1.00 corresponds to a 1\% movement.
 #' Note also that returns presumably are \sQuote{simple} returns, not log
@@ -159,8 +159,8 @@
 #' @title Monthly Fama French 10 Industry Returns
 #' @description The monthly returns of 10 industries: Nondurable goods, durable goods,
 #' Manufacturing, Energy, High Technology, Telecom, Retail, Healthcare, Utilities and Other.
-#' @format An \code{xts} object with 1,104 observations and 10 columns. 
-#' The data run from January, 1927 through December, 2018.
+#' @format An \code{xts} object with 1,128 observations and 10 columns. 
+#' The data run from January, 1927 through December, 2020.
 #' As in the upstream source, the data are given in \emph{percents}, meaning a
 #' value of 1.00 corresponds to a 1\% movement.
 #' Note also that returns presumably are \sQuote{simple} returns, not log

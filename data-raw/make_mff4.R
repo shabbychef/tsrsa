@@ -75,7 +75,7 @@ ff4.xts <- ff4.xts[,c("Mkt","SMB","HML","UMD","RF")]
 rm("FF4","FFM","ff_read")
 
 # subselect. 
-mff4 <- ff4.xts['1900-01-01::2018-12-11',]
+mff4 <- ff4.xts['1900-01-01::2020-12-31',]
 
 cat('mff4 is ',dim(mff4),'\n')
 

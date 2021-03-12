@@ -72,7 +72,10 @@ colnames(mind) <- gsub('Manuf','Manufacturing',colnames(mind))
 colnames(mind) <- gsub('HiTec','Technology',colnames(mind))
 colnames(mind) <- gsub('Hlth','Healthcare',colnames(mind))
 
-mind5 <- mind['1926-12-30::2018-12-28',]
+mind5 <- mind['1926-12-30::2020-12-31',]
+
+cat('mind5 is ',dim(mind5),'\n')
+
 #usethis::use_data(mind5,pkg='../',overwrite=TRUE)
 usethis::use_data(mind5,overwrite=TRUE)
 

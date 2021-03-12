@@ -28,7 +28,7 @@ suppressMessages({
 #colnames(vix.xts) <- 'VIX'
 
 
-vixy <- readr::read_csv('http://www.cboe.com/publish/scheduledtask/mktdata/datahouse/vixcurrent.csv',
+vixy <- readr::read_csv('https://ww2.cboe.com/publish/scheduledtask/mktdata/datahouse/vixcurrent.csv',
 												skip=1,
 												col_types=readr::cols(Date=col_date(format='%m/%d/%Y'))
 												) %>%
@@ -37,7 +37,7 @@ vixy <- readr::read_csv('http://www.cboe.com/publish/scheduledtask/mktdata/datah
 												#skip=1) %>%
 	#setNames(gsub('\\s+','_',names(.)))
 
-GET('http://www.cboe.com/publish/scheduledtask/mktdata/datahouse/vixarchive.xls', write_disk(tfname <- tempfile(fileext = ".xls")))
+GET('https://ww2.cboe.com/publish/scheduledtask/mktdata/datahouse/vixarchive.xls', write_disk(tfname <- tempfile(fileext = ".xls")))
 vxo <- readxl::read_xls(tfname, skip=1) %>%
 	setNames(gsub('\\s+','_',names(.))) %>%
 	select(Date,VIX_Close) %>%
@@ -47,7 +47,7 @@ vxo <- readxl::read_xls(tfname, skip=1) %>%
 	filter(!is.na(VIX))
 
 vix <- rbind(vxo, vixy %>% select(Date,VIX_Close) %>% rename(VIX=VIX_Close)) %>%
-	filter(Date <= as.Date('2018-12-31'))
+	filter(Date <= as.Date('2020-12-31'))
 
 dvix <- xts(x=vix$VIX,order.by=as.Date.POSIXlt(as.POSIXlt(vix$Date)))
 colnames(dvix) <- c('VIX')
