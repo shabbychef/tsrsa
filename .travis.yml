@@ -3,6 +3,9 @@
 
 language: r
 
+before_install:
+  - cd rpkg
+
 sudo: false
 
 cache : packages

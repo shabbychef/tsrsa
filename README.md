@@ -22,8 +22,8 @@ if (require(drat)) {
     install.packages("tsrsa")
 }
 # get snapshot from github (may be buggy)
-if (require(devtools)) {
-    install_github("shabbychef/tsrsa")
+if (require(remotes)) {
+    remotes::install_github("shabbychef/tsrsa/rpkg")
 }
 ```
 
