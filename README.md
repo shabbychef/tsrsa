@@ -2,7 +2,7 @@
 
 # tsrsa 
 
-[![Build Status](https://travis-ci.org/shabbychef/tsrsa.png)](https://travis-ci.org/shabbychef/tsrsa)
+[![Build Status](https://github.com/shabbychef/tsrsa/workflows/R-CMD-check/badge.svg)](https://github.com/shabbychef/tsrsa/actions)
 
 Data and code for the book, _The Sharpe Ratio: Statistics and Applications._ 
 
