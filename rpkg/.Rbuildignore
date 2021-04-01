@@ -27,3 +27,4 @@ rpkg_make
 libs
 nohup.out
 ^data-raw$
+^\.github$
