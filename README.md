@@ -10,8 +10,9 @@ Data and code for the book, _The Sharpe Ratio: Statistics and Applications._
 
 ## Contents
 
-	* [Errata for the book](errata.pdf)
-	* [The R package](rpkg/)
+
+* [Errata for the book](errata.pdf)
+* [The R package](rpkg/)
 
 
 ## Installation
