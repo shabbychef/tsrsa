@@ -47,7 +47,7 @@ vxo <- readxl::read_xls(tfname, skip=1) %>%
 	filter(!is.na(VIX))
 
 vix <- rbind(vxo, vixy %>% select(Date,VIX_Close) %>% rename(VIX=VIX_Close)) %>%
-	filter(Date <= as.Date('2020-12-31'))
+	filter(Date <= as.Date('2025-11-30'))
 
 dvix <- xts(x=vix$VIX,order.by=as.Date.POSIXlt(as.POSIXlt(vix$Date)))
 colnames(dvix) <- c('VIX')
