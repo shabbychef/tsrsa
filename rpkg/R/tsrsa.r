@@ -17,8 +17,8 @@
 #' @title Daily Fama French 4 Factor Returns
 #' @description The daily returns of the 4 Fama French Factors: Market, the cap factor SMB, 
 #' the growth factor HML, and the momentum factor UMD.
-#' @format An \code{xts} object with 24,795 observations and 5 columns. 
-#' The data run from January, 1927 through December, 2020.
+#' @format An \code{xts} object with 26,028 observations and 5 columns. 
+#' The data run from January, 1927 through November, 2025.
 #' As in the upstream source, the data are given in \emph{percents}, meaning a
 #' value of 1.00 corresponds to a 1\% movement.
 #' Note also that returns presumably are \sQuote{simple} returns, not log
@@ -48,8 +48,8 @@
 #' @title Monthly Fama French 4 Factor Returns
 #' @description The monthly returns of the 4 Fama French Factors: Market, the cap factor SMB, 
 #' the growth factor HML, and the momentum factor UMD.
-#' @format An \code{xts} object with 1,128 observations and 5 columns. 
-#' The data run from January, 1927 through December, 2020.
+#' @format An \code{xts} object with 1,187 observations and 5 columns. 
+#' The data run from January, 1927 through November, 2025.
 #' As in the upstream source, the data are given in \emph{percents}, meaning a
 #' value of 1.00 corresponds to a 1\% movement.
 #' Note also that returns presumably are \sQuote{simple} returns, not log
@@ -82,8 +82,8 @@
 #' the profitability factor RMW,
 #' and the invesment factor CMA.
 #'
-#' @format An \code{xts} object with 690 observations and 7 columns. 
-#' The data run from July, 1963 through December, 2020.
+#' @format An \code{xts} object with 749 observations and 7 columns. 
+#' The data run from July, 1963 through November, 2025.
 #' As in the upstream source, the data are given in \emph{percents}, meaning a
 #' value of 1.00 corresponds to a 1\% movement.
 #' Note also that returns presumably are \sQuote{simple} returns, not log
@@ -111,15 +111,16 @@
 
 #' @title Daily VIX Close
 #' @description The daily closing value of the CBOE VIX index.
-#' @format An \code{xts} object with 7,809 observations and 1 columns. 
-#' The data run from January, 1990 through December, 2020.
+#' @format An \code{xts} object with 9,069 observations and 1 columns. 
+#' The data run from January, 1990 through November, 2025.
 #' The columns are defined as follows:
 #' \describe{
 #'  \item{\code{VIX}}{The closing value of the VIX index. 
 #'  From January 2004 onward, the data are from the modern definition of the VIX index.
 #'  The data from before 2004 are sourced from the back-computed data archive on CBOE.}
 #' }
-#' @source CBOE. See \url{http://www.cboe.com/products/vix-index-volatility/vix-options-and-futures/vix-index/vix-historical-data}.
+#' @source CBOE. See 
+#' \url{https://www.cboe.com/tradable_products/vix/vix_historical_data}.
 #' @author Steven E. Pav \email{steven@@sharperat.io}
 #' @examples
 #' \dontrun{
@@ -130,8 +131,8 @@
 
 #' @title Monthly Fama French 5 Industry Returns
 #' @description The monthly returns of 5 industries: Consumer, Manufacturing, High Technology, Healthcare and Other.
-#' @format An \code{xts} object with 1,128 observations and 5 columns. 
-#' The data run from January, 1927 through December, 2020.
+#' @format An \code{xts} object with 1,187 observations and 5 columns. 
+#' The data run from January, 1927 through November, 2025.
 #' As in the upstream source, the data are given in \emph{percents}, meaning a
 #' value of 1.00 corresponds to a 1\% movement.
 #' Note also that returns presumably are \sQuote{simple} returns, not log
@@ -159,8 +160,8 @@
 #' @title Monthly Fama French 10 Industry Returns
 #' @description The monthly returns of 10 industries: Nondurable goods, durable goods,
 #' Manufacturing, Energy, High Technology, Telecom, Retail, Healthcare, Utilities and Other.
-#' @format An \code{xts} object with 1,128 observations and 10 columns. 
-#' The data run from January, 1927 through December, 2020.
+#' @format An \code{xts} object with 1,187 observations and 10 columns. 
+#' The data run from January, 1927 through November, 2025.
 #' As in the upstream source, the data are given in \emph{percents}, meaning a
 #' value of 1.00 corresponds to a 1\% movement.
 #' Note also that returns presumably are \sQuote{simple} returns, not log
