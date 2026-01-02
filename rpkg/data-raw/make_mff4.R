@@ -57,10 +57,10 @@ ff_read <- function(stub,
 
 FF4 <- ff_read('F-F_Research_Data_Factors_TXT',
 							 subfile='F-F_Research_Data_Factors.txt',
-							 skip=3,header=FALSE,widths=c(6,rep(8,4)))
+							 skip=4,header=FALSE,widths=c(6,rep(8,4)))
 FFM <- ff_read('F-F_Momentum_Factor_TXT',
-							 subfile='F-F_Momentum_Factor.TXT',
-							 skip=13,header=FALSE,widths=c(6,rep(8,1)))
+							 subfile='F-F_Momentum_Factor.txt',
+							 skip=13,header=FALSE,widths=c(6,rep(7,1)))
 colnames(FFM) <- c("UMD")
 
 ff4.xts <- cbind(FF4,FFM)

@@ -55,13 +55,13 @@ ff_read <- function(stub,
 	data2
 }
 
-
 FF5 <- ff_read('F-F_Research_Data_5_Factors_2x3_TXT',
 							 subfile='F-F_Research_Data_5_Factors_2x3.txt',
-							 skip=3,header=FALSE,widths=c(6,rep(8,6)))
+							 skip=4,header=FALSE,widths=c(6,rep(8,6)))
+
 FFM <- ff_read('F-F_Momentum_Factor_TXT',
-							 subfile='F-F_Momentum_Factor.TXT',
-							 skip=13,header=FALSE,widths=c(6,rep(8,1)))
+							 subfile='F-F_Momentum_Factor.txt',
+							 skip=13,header=FALSE,widths=c(6,rep(7,1)))
 colnames(FFM) <- c("UMD")
 
 ff6.xts <- cbind(FF5,FFM)
