@@ -4,16 +4,19 @@
 \name{dvix}
 \alias{dvix}
 \title{Daily VIX Close}
-\format{An \code{xts} object with 7,809 observations and 1 columns. 
-The data run from January, 1990 through December, 2020.
+\format{
+An \code{xts} object with 9,069 observations and 1 columns. 
+The data run from January, 1990 through November, 2025.
 The columns are defined as follows:
 \describe{
  \item{\code{VIX}}{The closing value of the VIX index. 
  From January 2004 onward, the data are from the modern definition of the VIX index.
  The data from before 2004 are sourced from the back-computed data archive on CBOE.}
-}}
+}
+}
 \source{
-CBOE. See \url{http://www.cboe.com/products/vix-index-volatility/vix-options-and-futures/vix-index/vix-historical-data}.
+CBOE. See 
+\url{https://www.cboe.com/tradable_products/vix/vix_historical_data}.
 }
 \usage{
 dvix

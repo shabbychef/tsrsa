@@ -4,8 +4,9 @@
 \name{dff4}
 \alias{dff4}
 \title{Daily Fama French 4 Factor Returns}
-\format{An \code{xts} object with 24,795 observations and 5 columns. 
-The data run from January, 1927 through December, 2020.
+\format{
+An \code{xts} object with 26,028 observations and 5 columns. 
+The data run from January, 1927 through November, 2025.
 As in the upstream source, the data are given in \emph{percents}, meaning a
 value of 1.00 corresponds to a 1\% movement.
 Note also that returns presumably are \sQuote{simple} returns, not log
@@ -20,7 +21,8 @@ The columns are defined as follows:
  \item{\code{RF}}{The risk-free rate, presumably as an daily rate, though note that no corrections have been
  made for weekend effects when adding the risk-free rate back to the market
  rate.}
-}}
+}
+}
 \source{
 Kenneth French data library.
 See \url{http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html},

@@ -12,7 +12,7 @@ Title: Data and code for the book, The Sharpe Ratio: Statistics and Applications
 BugReports: https://github.com/shabbychef/tsrsa/issues
 Description: Publicly available Market data, mostly compiled by Kenneth French,
    and loaded from Quandl.
-RoxygenNote: 6.1.1
+RoxygenNote: 7.3.3
 URL: https://github.com/shabbychef/tsrsa
 Depends:
     R (>= 3.5),

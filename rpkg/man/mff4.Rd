@@ -4,8 +4,9 @@
 \name{mff4}
 \alias{mff4}
 \title{Monthly Fama French 4 Factor Returns}
-\format{An \code{xts} object with 1,128 observations and 5 columns. 
-The data run from January, 1927 through December, 2020.
+\format{
+An \code{xts} object with 1,187 observations and 5 columns. 
+The data run from January, 1927 through November, 2025.
 As in the upstream source, the data are given in \emph{percents}, meaning a
 value of 1.00 corresponds to a 1\% movement.
 Note also that returns presumably are \sQuote{simple} returns, not log
@@ -17,7 +18,8 @@ The columns are defined as follows:
  \item{\code{HML}}{The growth factor monthly return.}
  \item{\code{UMD}}{The momentum factor monthly return.}
  \item{\code{RF}}{The risk-free rate, presumably as a monthly rate. The average value is arround 0.28, corresponding to an annualized rate of around 3.3\%.}
-}}
+}
+}
 \source{
 Kenneth French data library.
 See \url{http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html},

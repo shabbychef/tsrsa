@@ -4,8 +4,9 @@
 \name{mind5}
 \alias{mind5}
 \title{Monthly Fama French 5 Industry Returns}
-\format{An \code{xts} object with 1,128 observations and 5 columns. 
-The data run from January, 1927 through December, 2020.
+\format{
+An \code{xts} object with 1,187 observations and 5 columns. 
+The data run from January, 1927 through November, 2025.
 As in the upstream source, the data are given in \emph{percents}, meaning a
 value of 1.00 corresponds to a 1\% movement.
 Note also that returns presumably are \sQuote{simple} returns, not log
@@ -17,7 +18,8 @@ The columns are defined as follows:
  \item{\code{Technology}}{The monthly returns of the Technology industry, published as \dQuote{HiTec}.}
  \item{\code{Healthcare}}{The monthly returns of the Healthcare industry, published as \dQuote{Hlth}.}
  \item{\code{Other}}{The monthly returns of the Other industry, published as \dQuote{Other}.}
-}}
+}
+}
 \source{
 Kenneth French data library.
 See \url{http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html},

@@ -4,7 +4,8 @@
 \name{gw}
 \alias{gw}
 \title{Goyal Welch Equity Premium Data.}
-\format{An \code{xts} object with 215 observations and 23 columns. 
+\format{
+An \code{xts} object with 215 observations and 23 columns. 
 The data are annual and span from 1802 through 2016. 
 As in the upstream source, the data are given in \emph{percents}, meaning a
 value of 1.00 corresponds to a 1\% movement.
@@ -33,7 +34,8 @@ The columns are defined in the paper, but are roughly as follows:
  \item{\code{csp}}{????}
  \item{\code{cay}}{????}
  \item{\code{ik}}{????}
-}}
+}
+}
 \source{
 Ivo Welch's data page, \url{http://www.ivo-welch.info/professional/goyal-welch/}.
 }
